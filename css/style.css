@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=PT+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+a {
+	text-decoration:none;
+	color: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+/*header css*/
+.tiny-header {
+	background: #fbdb00;
+	padding: 60px 0;
+	
+}
+
+.fingerprint {
+	display: flex;
+	align-items: center;
+}
+
+.fingertext {
+	padding: 0 10px;
+
+}
+
+.fingertext h5 {
+	font-weight: bold;
+	
+}
+.fingertext h5 a {
+	color: black;
+}
+
+
+.social {
+	
+	font-size: 25px;
+}
+.social ul {
+
+	display: flex;
+	justify-content: flex-end;
+}
+.social ul li {
+	
+	
+}
+.social ul li a {
+	justify-content: space-between;
+	color: #000;
+	padding:  0 20px; 
+}
+
+/*header css ends*/
+
+
+.content {
+	background: #fbdb00 ;
+	align-items: center;
+	padding: 210px 0;
+}
+.inspire h1 {
+	font-weight: bold;
+}
+.inspire h5 {
+	font-size: 20px;
+	
+}
+
+.button {
+	
+}
+
+.button ul {
+	display: flex;
+	justify-content: center;
+}
+.button ul li  {
+	width: 65px;
+	height: 65px;
+	border: 2px solid black;
+	margin: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+
+
+
+/*features*/
+
+.featuers {
+	padding: 120px 0;
+}
+
+.featuers-header h2 {
+	font-size:32px;
+	padding-bottom: 10px ;
+	font-weight: bold;
+}
+
+.featuers-header h6 {
+	font-size: 20px;
+}
+
+.respon {
+	padding: 130px 0;
+}
+
+.htmlcss {
+	padding: 20px 0;
+}
+.featuers-center {
+	padding-top:65px ;
+}
+
+.font-awsome {
+	padding: 130px 0;
+}
+
+.download {
+	padding: 20px 0;
+}
+
+
+
+/*featuers end*/
+
+/*contact*/
+
+.contact {
+	background: #000;
+}
+.contact-header h1 {
+	color:#fbdb00 ;
+	padding:95px 5px 0;
+}
+
+.contact-header h6 {
+	color: #fff;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  padding: 40px 60px 0;
+}
+
+.email-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 500px;
+}
+
+.submit-btn {
+  background-color: #fbdb00;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.contact2 {
+	background: #000;
+	padding: 115px  0;
+}
+
+.contact2 h6 {
+	color: #fff;
+
+}
+.contact2 a {
+	color:#fff ;
+}
